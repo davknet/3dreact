@@ -1,0 +1,46 @@
+
+div.Home-page{
+    min-width:100%;
+    min-height: 100vh;
+    margin:0;
+    padding:0;
+}
+
+div.container {
+    width: 100vw ;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between ;
+    /* align-items: center; */
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+div.view-cover {
+
+    margin:0;
+    padding:0;
+    width:60vw;
+    min-height: 60vh;
+    border:1px solid #000;
+
+}
+
+div.sidebar {
+
+   margin:0;
+   padding:0;
+   width:40vw;
+   min-height: 60vh ;
+   border:1px solid #f10707;
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+
+ 
+
+
+  }
+

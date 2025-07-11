@@ -1,0 +1,85 @@
+{
+  "buildingId": "B-001",
+  "name": "Tech Innovation Hub",
+  "location": "Petah Tikva, Israel",
+  "architect": "David Kahadze",
+  "floors": 3,
+  "heightMeters": 12.5,
+  "materials": ["concrete", "glass", "steel"],
+  "yearBuilt": 2025,
+  "elements": {
+    "walls": [
+      {
+        "id": "W1",
+        "type": "exterior",
+        "material": "concrete",
+        "thicknessCm": 30,
+        "heightMeters": 3,
+        "lengthMeters": 12.5,
+        "position": { "x": 0, "y": 0 },
+        "orientation": "north"
+      },
+      {
+        "id": "W2",
+        "type": "interior",
+        "material": "gypsum",
+        "thicknessCm": 10,
+        "heightMeters": 3,
+        "lengthMeters": 6,
+        "position": { "x": 5, "y": 2 },
+        "orientation": "east"
+      }
+    ],
+    "floors": [
+      {
+        "level": 1,
+        "floorHeightMeters": 3.5,
+        "material": "reinforced concrete",
+        "rooms": [
+          {
+            "id": "R1",
+            "name": "Lobby",
+            "areaSqM": 40,
+            "flooring": "tile",
+            "windows": 2
+          },
+          {
+            "id": "R2",
+            "name": "Office A",
+            "areaSqM": 25,
+            "flooring": "laminate",
+            "windows": 1
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "floorHeightMeters": 3,
+        "material": "reinforced concrete",
+        "rooms": [
+          {
+            "id": "R3",
+            "name": "Conference Room",
+            "areaSqM": 35,
+            "flooring": "carpet",
+            "windows": 3
+          }
+        ]
+      }
+    ],
+    "roof": {
+      "type": "flat",
+      "material": "bitumen",
+      "insulated": true,
+      "heightMeters": 0.5
+    }
+  },
+  "utilities": {
+    "electricity": true,
+    "water": true,
+    "hvac": "central",
+    "solarPanels": true
+  },
+  "structuralEngineer": "MK Engineering Ltd.",
+  "status": "under_construction"
+}

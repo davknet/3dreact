@@ -1,0 +1,15 @@
+div.building-box {
+
+    width:100vw;
+    height: 100vh;
+    border: 1px solid #000 ;
+    background-color: aqua ;
+
+
+}
+
+div.building-box h1.title{
+    text-align: center ;
+    padding:25px;
+
+}

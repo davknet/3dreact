@@ -1,0 +1,37 @@
+    
+.main-header-nav {
+
+    width:100%;
+    max-height: 100px;
+    padding:20px;  
+}
+
+.main-header-nav ul.main-header-nav-ul {
+
+    width:100%;
+    height: auto;
+    display: flex ;
+    flex-direction: row ;
+    column-gap: 40px;
+    margin:0;
+    padding:0;
+    list-style: none ;
+}
+
+ul.main-header-nav-ul li {
+    list-style: none ;
+}
+
+ul.main-header-nav-ul li a{
+
+   text-decoration: none ;
+   cursor: pointer;
+   color:rgb(231, 236, 240);
+   font-size: 20px ;
+}
+
+ul.main-header-nav-ul li a:hover {
+
+    color: rgb(234, 155, 57);
+}
+
